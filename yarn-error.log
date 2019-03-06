@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js add tsc-wactch --dev
+
+PATH: 
+  /usr/local/Cellar/pyenv-virtualenv/1.1.3/shims:/Users/admin/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin:/usr/local/Cellar/pyenv-virtualenv/1.1.3/shims:/Users/admin/.pyenv/shims
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tsc-wactch: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:66255:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:129397:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130369:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:285:13)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "typechain",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/ryan3780/typechain",
+    "license": "MIT",
+    "author": "ryan3780 <guemhong3780@gmail.com>",
+    "scripts": {
+      "start": "node index.js",
+      "prestart": "tsc"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

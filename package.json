@@ -1,0 +1,15 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ryan3780/typechain",
+  "license": "MIT",
+  "author": "ryan3780 <guemhong3780@gmail.com>",
+  "scripts": {
+    "start": "tsc-watch --onSucecess \" node dist/index.js\" ",
+    "prestart": "tsc"
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.1.2"
+  }
+}
